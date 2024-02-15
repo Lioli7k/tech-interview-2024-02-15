@@ -1,0 +1,9 @@
+[package]
+name = "tech-interview-2024-02-15"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+par-stream = { version = "0.10.2", features = ["runtime-tokio"] }
+tokio = { version = "1.36.0", features = ["full"] }
+tokio-stream = "0.1.14"
